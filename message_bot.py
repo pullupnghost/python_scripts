@@ -2,13 +2,14 @@
 '''
     * Instructions:
         1. Check the imports and install the missing ones
-        2. Change the message variable to the message you want to send
-        3. Change the Limit variable to the number of messages you want to send
-        4. Change the keyboard.on_press() to the key you want to stop the script
+        2. Open the dir of the python file in cmd
+        3. Run the code : python {bot-name}.py -msg 'XXX' -n Y
+               /// "XXX" - text of choice; "Y" - number of choice
+        4. (Optional) Change the keyboard.on_press() to the key you want to stop the script
         5. Start the Script
-        6. Message Box should be active after start or wont work.
-        7. Open the app of choice after starting
-        8. Wait for the messages to send or press Esc to stop
+        6. Open the app of choice after starting
+        7. Message Box should be active or wont work. 
+        8. Wait for the messages to send or press Esc by default to stop
 '''
 
 import argparse
